@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="t">
-  <title id="t">LumenOSS: open blueprints for public-interest data, starting with education</title>
+  <title id="t">LumenOSS: open blueprints for education management information systems (EMIS)</title>
   <defs>
     <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#17386a"/>
@@ -40,7 +40,7 @@
   <g font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
     <text x="344" y="150" font-size="76" font-weight="700" fill="#f0f4fa" letter-spacing="-1">Lumen<tspan fill="#ffa62b">OSS</tspan></text>
     <rect x="348" y="176" width="72" height="4" rx="2" fill="#ffa62b"/>
-    <text x="346" y="226" font-size="30" fill="#a9b6c8">Open blueprints for public-interest data,</text>
-    <text x="346" y="266" font-size="30" fill="#a9b6c8">starting with education.</text>
+    <text x="346" y="226" font-size="30" fill="#a9b6c8">Open blueprints for education management</text>
+    <text x="346" y="266" font-size="30" fill="#a9b6c8">information systems (EMIS).</text>
   </g>
 </svg>
