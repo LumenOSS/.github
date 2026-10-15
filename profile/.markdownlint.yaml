@@ -1,0 +1,11 @@
+# The organisation page opens with its banner image, which carries the
+# title (the h1), so its first written heading is an h2. The other rules
+# match the repository root.
+default: true
+MD013: false
+MD033: false
+MD024:
+  siblings_only: true
+MD041:
+  allow_preamble: true
+  level: 2
