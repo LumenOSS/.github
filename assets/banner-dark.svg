@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="t">
+  <title id="t">LumenOSS: open blueprints for public-interest data, starting with education</title>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17386a"/>
+      <stop offset="1" stop-color="#0a1a33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="256" cy="300" r="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb84d" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffb84d" stop-opacity="0"/>
+    </radialGradient>
+    <!-- User space, so the gradient also paints the vertical ray, whose
+         bounding box has no width. -->
+    <linearGradient id="sun" x1="0" y1="100" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe7a8"/>
+      <stop offset="1" stop-color="#ffa62b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="#0d1117"/>
+  <g transform="translate(80 48) scale(0.4375)">
+    <rect width="512" height="512" rx="112" fill="url(#night)"/>
+  <circle cx="256" cy="300" r="150" fill="url(#glow)"/>
+
+  
+  <g stroke="url(#sun)" stroke-width="22" stroke-linecap="round">
+    <line x1="256" y1="200" x2="256" y2="104"/>
+    <line x1="306" y1="213.4" x2="354" y2="130.3"/>
+    <line x1="206" y1="213.4" x2="158" y2="130.3"/>
+    <line x1="342.6" y1="250" x2="425.7" y2="202"/>
+    <line x1="169.4" y1="250" x2="86.3" y2="202"/>
+  </g>
+
+  
+  <circle cx="256" cy="300" r="80" fill="url(#sun)"/>
+
+  
+  <path d="M256 322 C214 294 158 290 104 304 L104 408 C158 394 214 398 256 426 Z" fill="#ffffff"/>
+  <path d="M256 322 C298 294 354 290 408 304 L408 408 C354 394 298 398 256 426 Z" fill="#dfe7f3"/>
+  </g>
+  <g font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="344" y="150" font-size="76" font-weight="700" fill="#f0f4fa" letter-spacing="-1">Lumen<tspan fill="#ffa62b">OSS</tspan></text>
+    <rect x="348" y="176" width="72" height="4" rx="2" fill="#ffa62b"/>
+    <text x="346" y="226" font-size="30" fill="#a9b6c8">Open blueprints for public-interest data,</text>
+    <text x="346" y="266" font-size="30" fill="#a9b6c8">starting with education.</text>
+  </g>
+</svg>
