@@ -21,9 +21,10 @@ holds its learners', teachers' and schools' data.**
 
 ## Mission
 
-We publish open, vendor-neutral blueprints for education management
-information systems (EMIS). Each blueprint is a governed data platform
-written as testable contracts, with reference implementations on open
+We publish an open, vendor-neutral blueprint for education management
+information systems (EMIS). It explains what an EMIS records and why, sets
+the rules for handling its data, and describes the governed platform that
+holds it as testable contracts, with reference implementations on open
 source and on commercial platforms. Ministries and school systems can build
 them anywhere, prove they conform, and keep control of what they run.
 
@@ -45,9 +46,9 @@ can read, build and check.
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| **data-platform-blueprint** | The architecture of a governed EMIS data platform: principles, 34 capabilities with testable contracts, C4 diagrams, decision records, and research-backed patterns for backfill and migration | In development; public at first release |
-| **data-platform-oss** | A reference implementation built only from open-source components, on any Kubernetes cluster | Planned |
-| **data-platform-databricks** | A reference implementation on Databricks, using open table formats and open-source tooling where they fit | Planned |
+| **blueprint** | LumenOSS Blueprint: what an EMIS is, its domain model, how its data is handled, and the governed platform behind it, written as principles and 41 capabilities with testable contracts. It's translated into French, Spanish and Arabic, and changes through open improvement proposals | In development; public at first release |
+| **blueprint-oss** | A reference implementation built only from open-source components, on any Kubernetes cluster | Planned |
+| **blueprint-databricks** | A reference implementation on Databricks, using open table formats and open-source tooling where they fit | Planned |
 
 ```mermaid
 flowchart LR
